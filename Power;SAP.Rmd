@@ -152,7 +152,8 @@ confint(fit)
 # is a significant difference between the groups.
 
 ```{r include=FALSE}
-# Plot a figure to illustrate various scenarios regarding confidence interval crossing of the null point and margins well ahead in the analysis plan itself before study commencement
+# Plot a figure to illustrate various scenarios regarding confidence interval crossing of the null point and margins well ahead in the 
+# analysis plan itself before study commencement
 df2 <- read.csv("your/hypothetical/data/for/the/point/estimate/and/confidence/limits/CI figure.csv")
 ```
 
