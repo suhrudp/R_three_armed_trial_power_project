@@ -72,15 +72,15 @@ ThreeArmedTrials::power_RET(experiment = 0.4,
                             var_estimation = "RML")
 ```
 
-# The goal is to see whether transitioning to drug B is clearly superior to transitioning to drug b from drug A with respect to maintaining on TLD in losing clinically significant bodyweight (≥5%) at 48 weeks in patients transitioning from drug A Following this, the primary hypothesis that arises is:
+# The goal is to see whether transitioning to drug B is clearly superior to transitioning to drug b from drug A with respect to maintaining on drug A in losing clinically significant bodyweight (≥5%) at 48 weeks in patients transitioning from drug A Following this, the primary hypothesis that arises is:
 # Whether transitioning to drug B from drug A is superior to transitioning to drug b with respect to maintenance on drug A in losing clinically significant bodyweight (≥5%) at 48 weeks.
 
 # Secondary hypotheses include:
-# 1.  Whether transitioning to drug B from drug A is superior to maintenance on TLD in losing clinically significant bodyweight (≥5%) at 48 weeks.
-# 2.  Whether transitioning to drug b from drug A is superior to maintenance on TLD in losing clinically significant bodyweight (≥5%) at 48 weeks.
+# 1.  Whether transitioning to drug B from drug A is superior to maintenance on drug A in losing clinically significant bodyweight (≥5%) at 48 weeks.
+# 2.  Whether transitioning to drug b from drug A is superior to maintenance on drug A in losing clinically significant bodyweight (≥5%) at 48 weeks.
 # 3.  Whether transitioning to drug B from drug A is superior to transitioning to drug b from drug A with respect to maintenance on drug A in losing clinically significant bodyweight (≥5%) at 48 weeks after stratifying for type 2 diabetes mellitus.
 
-# Based on clinical judgement, we anticipate that there is 40% probability that patients on TLE600 will lose clinically significant bodyweight (≥5%) after transitioning from TLD, 20% probability that patients on TLE400 will lose clinically significant bodyweight (≥5%) after transitioning from TLD , and 5% probability that patients maintained on TLD will lose clinically significant bodyweight (≥5%).
+# Based on clinical judgement, we anticipate that there is 40% probability that patients on drug B will lose clinically significant bodyweight (≥5%) after transitioning from drug A, 20% probability that patients on drug b will lose clinically significant bodyweight (≥5%) after transitioning from drug A , and 5% probability that patients maintained on drug A will lose clinically significant bodyweight (≥5%).
 
 # Sample size is calculated for a superiority three-arm trial with binary endpoints using the logit link function for a Wald-type test using the restricted variance estimation (RML). The allocation ratio is 1:1:1. We decided a log odds superiority margin (delta) of 0.7 (corresponding to an odds ratio of 2) to be clinically significant to investigate the superiority of drug B over drug b The required sample size for achieving 80% power at a significance level of 5% is 27 patients in each group (N = 81). Assuming a dropout rate of approximately 20% over a 48-week period in an urban population, we plan to recruit 35 patients in each group (N = 105).
 
