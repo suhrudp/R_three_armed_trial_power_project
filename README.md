@@ -5,3 +5,5 @@ A code that I wrote to calculate power and a provisional statistical analysis pl
 Supporting documents include documentation for the `ThreeArmedTrials` package in R and useful guidelines for choosing margins.
 
 The dataset provided is a simulated dataset and does NOT contain real patient data.
+
+P.S. Please convert the .R file to a .Rmd file to run it directly as a R Markdown file.
