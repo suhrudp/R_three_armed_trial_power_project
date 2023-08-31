@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# This ia a project that I worked on at the Institute of Infectious Diseases Clinic, Pune. The objective of the study was to assess the trends
+# This is a project that I worked on at the Institute of Infectious Diseases, Pune. The objective of the study was to assess the trends
 # in bodyweight after switching from drug A to drug B/drug b (lower dose of drug B)/continue on drug A. Since the study involved randomizing
 # patients to these three arms, calculating sample size to enable comparisons between three groups was needed. The `ThreeArmedTrials` package
 # is made for this explicit purpose. Please see the R code below to get a rough idea.
@@ -31,6 +31,8 @@ library(ThreeArmedTrials)
 ```{r}
 # Input effect sizes for drug B (so called "experiment"), drug b (so called "reference"), and drug A arms (so called "placebo"); set a margin
 # (delta), and choose what type of distribution and link function you want; store the optimal allocation it in an object for easier retrieval
+# Here, these effect sizes (40%, 20%, and 5% probabilities of gaining clinically significant bodyweight >=5% have been agreed upon by an 
+# expert consensus, since this is a novel clinical trial and there is no high level evidence related to this hypothesis
 w <- ThreeArmedTrials::opt_alloc_RET(experiment = 0.4, 
                                      reference = 0.2, 
                                      placebo = 0.05,
